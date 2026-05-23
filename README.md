@@ -44,3 +44,9 @@ envcheck check .env.example .env .env.production
 ## Tech stack
 
 Python, Typer, Rich
+
+## More tools
+
+- [pingbot](https://github.com/shyh26/pingbot) — dead-simple cron job monitor with Telegram alerts
+- [shipnotes](https://github.com/shyh26/shipnotes) — changelog generator from git history
+- [tokenalyzer](https://github.com/shyh26/tokenalyzer) — AI coding token usage & cost analyzer
