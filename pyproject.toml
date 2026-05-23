@@ -1,0 +1,16 @@
+[project]
+name = "envcheck"
+version = "0.1.0"
+description = "Compare .env files across environments, find missing and mismatched variables"
+requires-python = ">=3.14"
+dependencies = [
+    "rich>=14.2.0",
+    "typer>=0.21.0",
+]
+
+[project.scripts]
+envcheck = "envcheck.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9.0"]
+build-backend = "uv_build"
