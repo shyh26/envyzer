@@ -1,4 +1,4 @@
-# envcheck
+# envyzer
 
 Compare `.env` files across environments. Catch missing or mismatched variables before they break production.
 
@@ -9,7 +9,7 @@ You have `.env`, `.env.staging`, `.env.production.example`. Are they in sync? Di
 ## Quick start
 
 ```bash
-pip install envcheck
+pip install envyzer
 envcheck check .env.example .env .env.production
 ```
 

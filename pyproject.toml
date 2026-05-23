@@ -1,5 +1,5 @@
 [project]
-name = "envcheck"
+name = "envyzer"
 version = "0.1.0"
 description = "Compare .env files across environments, find missing and mismatched variables"
 authors = [{ name = "shyh26", email = "shyh26@users.noreply.github.com" }]
@@ -25,7 +25,7 @@ dependencies = [
 ]
 
 [project.scripts]
-envcheck = "envcheck.cli:main"
+envyzer = "envcheck.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/envcheck"]
